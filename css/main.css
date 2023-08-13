@@ -1,0 +1,580 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:  rgb(36, 36, 36);
+  direction: rtl;
+}
+/*Start navpar*/
+.nav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav .logo{
+    width: 24%;
+    padding: 30px 20px;
+    font-weight: bold;
+}
+.nav .logo a {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+.nav .logo a span{
+    color: rgb(235, 11, 3);
+}
+.nav .logo a label{
+ color: rgb(3, 67, 204);
+}
+.nav .ph{
+    display: none;
+}
+.nav .textn{
+    width: 60%;
+    padding: 30px 20px;
+    font-weight: bold;
+}
+.nav .textn ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.nav .textn ul li {
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.nav .textn ul li a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    color:  rgb(233, 233, 233);
+}
+.nav .textn ul li a:hover{
+    color:  rgb(235, 11, 3);
+}
+.nav .textn ul li .buttons{
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 15px 25px;
+    width: 100px;
+    font-weight: 300;
+    transition: 0.5s;
+    color: rgb(233, 233, 233);
+
+    border: 1px solid  rgb(233, 233, 233);
+}
+.nav .textn ul li .buttons:hover{
+    background-color:  rgb(235, 11, 3);
+  color: white ;
+}
+/*end navpar*/
+/*=====================*/
+.container{
+    width: 80%;
+    background-color: rgb(36, 36, 36);
+    margin: auto;
+}
+/*start part1*/
+.container .part1{
+    display: flex;
+    flex-wrap: wrap;
+  /*flex-direction: row-reverse;*/
+    margin-bottom: 200px;
+    padding-top: 50px;
+}
+.container .part1 .Globee{
+    padding-top: 90px;
+    text-align: center;
+    width: 50%;
+    display: none;
+}
+.container .part1 .Globee img{
+    width: 95%;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.container .part1 .Globe{
+    padding-top: 90px;
+    text-align: center;
+    width: 50%;
+}
+.container .part1 .Globe img{
+    width: 95%;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+    50% {
+        transform: translatey(20px);
+      }
+}
+.container .textp1{
+    width: 50%;
+}
+.container .textp1 h1{
+    font-family: "Raleway", sans-serif;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 60px;
+    color:  rgb(196, 196, 196);
+}
+.container .textp1 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(233, 233, 233);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.container .textp1 a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    background-color:  rgb(235, 11, 3);
+    font-size: 20px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 1px  rgb(3, 67, 204);
+    padding: 12px 30px;
+    transition: 0.5s;
+}
+.container .textp1 a:hover{
+    background-color: rgb(3, 67, 204);
+    box-shadow: 0px 2px 15px 1px  rgb(235, 11, 3);
+    border-radius: 10px;
+}
+/*end part2*/
+/*=============================*/
+/*start part2*/
+.container .part2{
+    background-color: rgb(36, 36, 36);
+    color: rgb(233, 233, 233);
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .part2 .textp2{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.container .part2 .textp2 h1{
+    margin-bottom: 20px;
+}
+.container .part2 .textp2 p{
+   font-size: 20px;
+}
+
+.container .part2 .groupDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    transition: 0.7s;
+}
+.container .part2 .groupDiv .textgd{
+    width: 23%;
+    padding: 30px 5px;
+    background-color: rgb(65, 65, 65);
+    margin-bottom: 20px;
+}
+.container .part2 .groupDiv .textgd a{
+    cursor: pointer;
+    width: auto;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    font-size: 30px;
+}
+
+.container .part2 .groupDiv .textgd a:hover{
+    color:  rgb(235, 11, 3);
+}
+.container .part2 .end{
+    margin-bottom: 100px;
+}
+.container .part2 .end h1{
+    margin-bottom: 20px;
+}
+.container .part2 .end p{
+    font-size: 20px;
+}
+
+
+/*end part2*/
+/*=============*/
+/*start part3*/
+.part3{
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(196, 196, 196);
+    
+}
+.part3 .textp3{
+    width: 100%;
+
+}
+.part3 .textp3 h1{
+    margin-bottom: 20px;
+
+}
+.part3 .textp3 p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.part3 .contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.part3 .contact .location{
+    width: 40%;
+    background-color: rgb(65, 65, 65);
+    border-top: 5px solid rgb(235, 11, 3);
+    border-bottom: 5px solid rgb(235, 11, 3);
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.part3 .contact .location .address,.part3 .contact .location .email,.part3 .contact .location .number{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+}
+.part3 .contact .location .address div,.part3 .contact .location .email div,.part3 .contact .location .number div{
+    width: 90%;
+  text-align: right;
+}
+.part3 .contact .location .address div > h1,.part3 .contact .location .email div > h1,.part3 .contact .location .number div > h1{
+    margin-bottom: 10px;
+  color: rgb(196, 196, 196);
+}
+.part3 .contact .location .address div > p,.part3 .contact .location .email div > p,.part3 .contact .location .number div > p{
+    color:rgb(233, 233, 233);
+}
+/**/
+.part3 .contact .location .address i ,.part3 .contact .location .email i,
+.part3 .contact .location .number i{
+    width: 10%;
+    height: 35px;
+    padding-top: 15px;
+    color: rgb(235, 11, 3);
+    background-color:  rgb(36, 36, 36);
+    border-radius: 50%;
+}
+.part3 .contact .location .address:hover i ,.part3 .contact .location .email:hover i,
+.part3 .contact .location .number:hover i{
+    color: rgb(36, 36, 36);
+    background-color: rgb(235, 11, 3);
+}
+/**/
+.contact .location iframe{
+    width: 95%;
+    height: 400px;
+    margin: auto;
+
+}
+/*form*/
+.contact .form{
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    border-top: 5px solid rgb(235, 11, 3);
+    border-bottom: 5px solid rgb(235, 11, 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact form{
+    width: 100%;
+}
+
+/**/
+.contact .form .higher{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.contact .form .higher div{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.contact .form .higher div > label{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.contact .form input,.contact .form textarea{
+    background-color: rgb(36, 36, 36);
+    color: rgb(233, 233, 233);
+}
+.contact .form .higher div > input{
+    width: 95%;
+  line-height: 28px;
+}
+
+.contact .form form .middle{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.contact .form form .middle label{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 5px;
+    margin-bottom: 15px;
+}
+.contact .form .middle input{
+    width: 97.5%;
+    line-height: 28px;
+}
+.contact .form .under{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.contact .form .under label{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 5px;
+    margin-bottom: 15px;
+}
+.contact .form .under textarea{
+    width: 97.5%;
+}
+.contact .form button{
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0px solid black;
+    background-color: rgb(235, 11, 3);
+    color: white;
+    transition: all 0.5s;
+}
+.contact .form button:hover{
+    background-color: rgb(3, 67, 204);
+    cursor: pointer;
+}
+/*end part 3*/
+/*====================================*/
+/*start part4*/
+.part4{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    padding: 50px 20px 20px;
+    border-left: 5px solid  rgb(235, 11, 3);
+    border-right: 5px solid  rgb(235, 11, 3);
+    margin: 0px 150px;
+}
+.part4 .add1{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.part4 .add1 h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(233, 233, 233);
+    font-weight: bold;
+}
+hr{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.part4 .add2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(233, 233, 233);
+}
+.part4 .add2 .by{
+    width: 50%;
+  text-align: right;
+  font-size: 14px;
+}
+.part4 .add2 .by p{
+
+}
+.part4 .add2 .by p a{
+    color: rgb(235, 11, 3);
+    text-decoration: none;
+}
+.part4 .add2 .by p a:hover{
+    color: dodgerblue ;
+    cursor: pointer ;
+}
+.part4 .add2 .prg{
+    width: 50%;
+    text-align: left;
+    font-size: 14px;
+}
+.part4 .add2 .prg p{
+
+}
+.part4 .add2 .prg p span{
+    font-weight: bold;
+}
+@media (max-width:750px){
+    .nav{
+        width: 100%;
+        height: 90px;
+        display: flex;
+
+    }
+    .nav .ph{
+        color: black;
+        display: block;
+        margin: 40px 40px;
+    }
+    .nav .ph i{
+        font-size: 26px;
+    }
+    .nav .logo{
+        font-size: 10px;
+    }
+    .nav .textn{
+        width: 0px;
+        display: none;
+    }
+  
+    .container{
+        width: 95%;
+      margin: auto ;
+        padding: 0px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;       
+    }
+    .container .part1{
+        width: 100%;
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        direction: ltr;
+        margin-bottom: 80px;
+        padding-top: 0px;
+    }
+    .container .part1 .Globee{
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        display: block;
+       
+    }
+    .container .Globee img{
+        width: 100px;
+        height: 100px;
+     }
+    .container .part1 .Globe{
+        display: none;
+       
+     }
+    .container .part1 .textp1{
+        height: 400px;
+        width: 100%;
+        text-align: center;
+    }
+    .container .part1 .textp1 h1{
+        padding-top: 10px;
+    }
+  
+    .container .part1 .textp1{
+        width: 100%;
+        text-align: center;
+    }
+     .container .part2{
+        width: 100%;
+        padding: 0px 0px;
+     }
+     .container .part2 .textp2 {
+        width: 100%;
+        text-align: center;
+        margin: 0px 0px;
+     }
+     .container .part2 .groupDiv{
+        text-align: center;
+     }
+     .container .part2 .groupDiv .textgd{
+        width: 100%;
+        margin: 10px 10px;
+       text-align: center;
+     }
+     .container .part3 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 0px;
+     }
+     .container .part3 .contact {
+        padding: 0px 0px;
+        width: 100%;
+     }
+     .container .part3 .contact .location {
+        padding: 0px 0px;
+        width: 100%;
+        margin-bottom: 20px;
+     }
+     .container .part3 .contact .location .address, 
+      .container .part3 .contact .location .email,
+      .container .part3 .contact .location .number{
+        margin: 10px 10px;
+     }
+     .container .part3 .contact .form {
+        padding: 10px 10px;
+        width: 100%;
+        margin-bottom: 20px;
+     }
+     .container .part3 .contact .form .higher,.container .part3 .contact .form .middle,
+     .container .part3 .contact .form .under{
+        width: 98%;
+     }
+     ntainer .part3 .contact .form button{
+        margin-bottom: 20px ;
+     }
+     .part4 {
+       margin: 0px 0px;
+      
+     }
+     .part4 .add2 .by{
+        width: 100%;
+        text-align: center;
+     }
+     .part4 .add2 .prg{
+        width: 100%;
+        text-align: center;
+     }
+}
